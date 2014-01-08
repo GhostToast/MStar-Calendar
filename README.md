@@ -15,5 +15,10 @@ Calendar plugin for WordPress with full recurring events support
 * Cached results for faster rendering
 * jQuery-driven front end with searh and taxonomy support
 
+###To Use:
+* Upload Zip to `/plugins/` directory, extract and activate.
+* Add shortcode to a page! `[mstar_calendar history="12" future="12" cache_hours="24"]` where `history` is number of past months that should be included, `future` is months ahead, and `cache_hours` is the length of time the cache should wait before dumping (you can also manually dump the cache in Events->Options).
+* If you make a `single-event.php` in your theme directory, it'll use it, otherwise it'll make its own on the fly!
+
 ###Roadmap:
 * Make separate table for Events, Child Events
