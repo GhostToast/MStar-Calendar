@@ -10,6 +10,7 @@ Calendar plugin for WordPress with full recurring events support
   * Every 3rd Tuesday, all day
   * Last Sunday of each month, starting at 10:15 am 
   * Etc.
+  * 
 * Each event can have its own list of exception dates; i.e. cancellations.
 * A "master list" of exceptions can also apply to each event; i.e. holidays.
 * Cached results for faster rendering
