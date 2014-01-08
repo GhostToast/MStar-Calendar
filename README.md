@@ -9,6 +9,7 @@ Some examples of frequency methods available:
 * Every Monday, Wednesday, Thursday from January 12th to March 2nd
 * Every 3rd Tuesday
 * Last Sunday of each month 
+* Etc.
  
 Each event can have its own list of exception dates; i.e. cancellations.
 
