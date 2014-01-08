@@ -3,7 +3,7 @@ MStar-Calendar
 
 Calendar plugin for WordPress with full recurring events support
 
-##Features:
+###Features:
 
 Some examples of frequency methods available:
 * Every Monday, Wednesday, Thursday from January 12th to March 2nd
@@ -14,5 +14,5 @@ Each event can have its own list of exception dates; i.e. cancellations.
 
 A "master list" of exceptions can also apply to each event; i.e. holidays.
 
-##Roadmap:
+###Roadmap:
 * Make separate table for Events, Child Events
