@@ -593,8 +593,8 @@ class mstar_calendar
 			$month_name = date('F', $one_month);
 			$month = date('m', $one_month);
 			$year = date('Y', $one_month);
-			if(isset($months[$key - 1])) $prev_month = $months[$key - 1];
-			if(isset($months[$key + 1])) $next_month = $months[$key + 1];
+			$prev_month = (isset($months[$key - 1]) ? $months[$key - 1] : false);
+			$next_month = (isset($months[$key + 1]) ? $months[$key + 1] : false);
 			
 			// draw table
 			$calendar .= '<table cellpadding="0" cellspacing="0" class="calendar" data-month="'.strtotime($month_name.' '.$year).'">';
